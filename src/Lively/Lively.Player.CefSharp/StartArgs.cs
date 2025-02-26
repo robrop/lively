@@ -71,5 +71,10 @@ namespace Lively.Player.CefSharp
         Required = false,
         HelpText = "Verbose Logging")]
         public bool VerboseLog { get; set; }
+
+        [Option("wallpaper-disable-hardware-media-key-handling",
+        Required = false,
+        HelpText = "Disable hardware media key handling")]
+        public bool DisableHardwareMediaKeyHandling { get; set; }
     }
 }
